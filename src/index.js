@@ -1,2 +1,3 @@
 import './styles.css';
-import './color-switch/script';
+import './color-switch/color-script';
+import './timer/timer-script';
