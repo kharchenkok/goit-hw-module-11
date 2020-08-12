@@ -4,7 +4,6 @@ const refs = {
   buttons: document.querySelectorAll('[data-action]'),
 };
 
-console.log(refs.buttons);
 const colors = [
   '#FFFFFF',
   '#2196F3',
