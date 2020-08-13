@@ -10,7 +10,7 @@ const refs = {
 class CountdownTimer {
   constructor({ selector, targetDate }) {
     (this.selector = selector), (this.targetDate = targetDate);
-    this.start();
+    
   }
   start() {
     this.timeDefinition();
@@ -44,7 +44,9 @@ class CountdownTimer {
   }
 }
 
-new CountdownTimer({
+const timer = new CountdownTimer({
   selector: '#timer-1',
   targetDate: new Date('Aug 23, 2020'),
 });
+
+timer.start()
